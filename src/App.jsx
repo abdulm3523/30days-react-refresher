@@ -1,7 +1,12 @@
 import "./App.css";
+import Boimela from "./Boimela";
 
 function App() {
-  return <h1 class="text-3xl font-bold text-center">Hello world!</h1>;
+  return (
+    <div class="max-w-5xl mx-auto p-4 md:p-6">
+      <Boimela />
+    </div>
+  );
 }
 
 export default App;
